@@ -6,7 +6,7 @@ int main() {
   int first_number, second_number, sum;
     
  first_number = 1;
-second_number = 30;
+ second_number = 30;
 
   // sum of two numbers in stored in variable sumOfTwoNumbers
   sum = first_number + second_number;
