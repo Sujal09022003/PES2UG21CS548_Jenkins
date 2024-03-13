@@ -11,7 +11,7 @@ pipeline{
               stage('Build'){
                 steps{
                     build 'PES2UG21CS548-1'
-                    sh 'g++ Jenkins.cpp -o output'
+                    sh 'g++ jenkins.cpp -o output'
                     echo 'Build Stage Successful'
                 }
               }
